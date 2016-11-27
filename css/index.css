@@ -1,26 +1,54 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: "microsoft yahei";
-	font-size: 12px;
+	font: 14px "microsoft yahei";
+	
 }
 body{
 	min-width: 1000px;
 }
-.city,.welcome{
+.header{
+	height: 38px;
+	background: rgb(51,51,51);
+}
+.city{
 	float: left;
+	line-height: 38px;
+}
+.city{
+	margin-left: 62px;
+	color: rgb(186,186,186);
+}
+.fa-map-marker{
+	color: rgb(186,186,186);
+}
+.share,.welcome{
+	float: right;
+	line-height: 38px;
 }
 .share{
-	float: right;
+	margin-right: 54px;
 }
-.share a{
-	display: inline-block;
-	width: 63px;
-	text-align: center;
+.share a,.share span{
+	float: left;
+	height: 24px;
+	margin: 0 10px;
+	padding: 7px 10px;
 }
 .share i{
-	font-size: 27px;
+	font-size: 24px;
+	color: rgb(186,186,186);
 }
-embed{
-	font-size: 27px;
+.share a:hover i{
+	color: #eee;
 }
+svg{
+	height: 24px;
+}
+.share a .cls-1{
+	fill: rgb(186,186,186);
+}
+.share a:hover .cls-1{
+	fill: #eee;
+}
+
