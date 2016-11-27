@@ -1,4 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+	font-size: 12px;
+}
+body{
+	min-width: 1000px;
+}
+.city,.welcome{
+	float: left;
+}
+.share{
+	float: right;
+}
 .share a{
-	display: block;
-	width: 20px;height: 20px;
+	display: inline-block;
+	width: 63px;
+	text-align: center;
+}
+.share i{
+	font-size: 27px;
+}
+embed{
+	font-size: 27px;
 }
