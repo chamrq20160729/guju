@@ -2,11 +2,13 @@
 	margin: 0;
 	padding: 0;
 	font: 14px "microsoft yahei";
-	
+	list-style: none;
+	text-decoration: none;
 }
 body{
 	min-width: 1000px;
 }
+/*header*/
 .header{
 	height: 38px;
 	background: rgb(51,51,51);
@@ -19,6 +21,12 @@ body{
 	margin-left: 62px;
 	color: rgb(186,186,186);
 }
+.city span{
+	padding: 0 5px;
+	}
+.city a{
+		color: white;
+	}
 .fa-map-marker{
 	color: rgb(186,186,186);
 }
@@ -34,10 +42,14 @@ body{
 	height: 24px;
 	margin: 0 10px;
 	padding: 7px 10px;
+	color: rgb(186,186,186);
+}
+.share>span{
+	margin: 0;
+	padding: 8px 0 6px 24px;
 }
 .share i{
 	font-size: 24px;
-	color: rgb(186,186,186);
 }
 .share a:hover i{
 	color: #eee;
@@ -45,10 +57,64 @@ body{
 svg{
 	height: 24px;
 }
+.cls-1 {
+  fill: #000;
+  fill-rule: evenodd;
+  }
 .share a .cls-1{
 	fill: rgb(186,186,186);
 }
 .share a:hover .cls-1{
 	fill: #eee;
 }
-
+.welcome,.welcome a{
+	color: rgb(186,186,186);
+}
+.welcome span,.welcome a{
+	display: inline-block;
+	margin: 0 16px;
+	padding: 1px 16px;
+}
+.welcome a{
+	border: 1px solid rgb(186,186,186);
+	border-radius: 11px;
+}
+.welcome a:hover{
+	color: #eee;
+	border: 1px solid #eee;
+}
+/*top*/
+.top{
+	height: 94px;
+}
+.logo{
+	float: left;
+	margin: 19px 55px;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 155px;
+	height: 56px;
+}
+.nav ul{
+	float: right;
+	height: 94px;
+	margin-right: 45px;
+}
+.nav li{
+	float: left;
+}
+.nav li a{
+	display: block;
+	margin: 20px 0;
+	padding: 12px 18px;
+	color: rgb(38,38,38);
+	background: #fff;
+	font-size: 20px;
+}
+.nav li a:hover{
+	color: #FFFFFF;
+	background: rgb(39,85,153);
+}
