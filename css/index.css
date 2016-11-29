@@ -118,3 +118,13 @@ svg{
 	color: #FFFFFF;
 	background: rgb(39,85,153);
 }
+.gua,.flow,.hot{
+	width:960px;
+	margin:0 auto;
+}
+.title h3{
+	float:left;
+}	
+.title span{
+	float:right;
+}
